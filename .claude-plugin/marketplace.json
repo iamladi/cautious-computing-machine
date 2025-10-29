@@ -1,0 +1,9 @@
+{
+  "name": "cautious-computing-machine",
+  "description": "Official marketplace by Ladi - A Claude Code plugins",
+  "owner": {
+    "name": "Ladislav Martincik",
+    "url": "https://github.com/iamladi/cautious-computing-machine"
+  },
+  "plugins": []
+}
