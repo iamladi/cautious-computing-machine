@@ -5,5 +5,11 @@
     "name": "Ladislav Martincik",
     "url": "https://github.com/iamladi/cautious-computing-machine"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "primitives",
+      "repository": "https://github.com/iamladi/cautious-computing-machine--primitives-plugin",
+      "description": "Essential building blocks for Claude Code workflows - smart commits, debugging, PRs, and environment setup"
+    }
+  ]
 }
