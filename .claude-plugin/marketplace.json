@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "sdlc-plugin",
+      "name": "sdlc",
       "repository": "https://github.com/iamladi/cautious-computing-machine--sdlc-plugin",
       "description": "Comprehensive SDLC plugin with specialized agents, commands, and integrations for enhanced software development workflow"
     },

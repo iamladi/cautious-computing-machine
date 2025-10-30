@@ -20,7 +20,7 @@ Comprehensive SDLC plugin with specialized agents, commands, and integrations fo
 
 **Install:**
 ```bash
-/plugin install sdlc-plugin
+/plugin install sdlc
 ```
 
 **Repository:** [cautious-computing-machine--sdlc-plugin](https://github.com/iamladi/cautious-computing-machine--sdlc-plugin)
