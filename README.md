@@ -14,6 +14,53 @@ Once added, you can browse and install plugins directly through Claude Code.
 
 ## Available Plugins
 
+### 🚀 SDLC Plugin
+
+Comprehensive SDLC plugin with specialized agents, commands, and integrations for enhanced software development workflow.
+
+**Install:**
+```bash
+/plugin install sdlc-plugin
+```
+
+**Repository:** [cautious-computing-machine--sdlc-plugin](https://github.com/iamladi/cautious-computing-machine--sdlc-plugin)
+
+**What's included:**
+
+#### Specialized Agents
+- `codebase-analyzer` - Deep implementation analysis with file:line references
+- `codebase-locator` - Fast component discovery across your codebase
+- `codebase-pattern-finder` - Pattern detection and architecture understanding
+- `web-search-researcher` - Real-time research via web search
+
+#### Slash Commands
+- `/plan` - Generate comprehensive PRDs with phases and validation
+- `/research` - AI-powered research with project context
+- `/implement` - Execute implementation based on plans
+- `/submit` - Prepare work for review
+- `/verify` - Validate against acceptance criteria
+
+#### Skills
+- `codex` - OpenAI Codex integration for automated refactoring
+- `gemini` - Google Gemini integration
+
+#### Integrations
+- **Context7** - Up-to-date library documentation
+- **Perplexity** - Advanced web search
+
+**Best for:**
+- Planning features with comprehensive PRDs
+- Understanding complex codebases
+- AI-assisted refactoring and analysis
+- Research-driven development
+- End-to-end SDLC workflows
+
+**Time saved:** ~2 hours per feature planning, ~1 hour on codebase analysis
+
+[View full documentation →](https://github.com/iamladi/cautious-computing-machine--sdlc-plugin#readme)
+
+---
+
 ### 🔧 Primitives
 
 Essential building blocks for Claude Code workflows.

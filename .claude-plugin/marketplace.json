@@ -7,6 +7,11 @@
   },
   "plugins": [
     {
+      "name": "sdlc-plugin",
+      "repository": "https://github.com/iamladi/cautious-computing-machine--sdlc-plugin",
+      "description": "Comprehensive SDLC plugin with specialized agents, commands, and integrations for enhanced software development workflow"
+    },
+    {
       "name": "primitives",
       "repository": "https://github.com/iamladi/cautious-computing-machine--primitives-plugin",
       "description": "Essential building blocks for Claude Code workflows - smart commits, debugging, PRs, and environment setup"
