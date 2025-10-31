@@ -21,6 +21,14 @@
         "repo": "iamladi/cautious-computing-machine--primitives-plugin"
       },
       "description": "Essential building blocks for Claude Code workflows - smart commits, debugging, PRs, and environment setup"
+    },
+    {
+      "name": "github",
+      "source": {
+        "source": "github",
+        "repo": "iamladi/cautious-computing-machine--github-plugin"
+      },
+      "description": "GitHub CI/CD automation plugin for auto-detecting, analyzing, and fixing CI/CD failures on any branch"
     }
   ]
 }
