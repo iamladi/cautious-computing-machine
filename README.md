@@ -77,9 +77,7 @@ Essential building blocks for Claude Code workflows.
 #### Slash Commands
 - `/commit` - Smart commit specialist with automatic batching and conventional commit standards
 - `/debug` - Investigate issues through parallel analysis of logs, database, and git history
-- `/generate_branch` - Create semantic git branch names from issues
 - `/install` - Verify tooling and install dependencies with health checks
-- `/pr` - Automated GitHub pull request creation with proper formatting
 - `/prime` - Quick codebase understanding and context loading
 - `/start` - Start development environment from project docs
 - `/tools` - List all available built-in development tools
@@ -97,6 +95,41 @@ Essential building blocks for Claude Code workflows.
 **Time saved:** ~14 minutes per feature, ~40 minutes on project setup
 
 [View full documentation →](https://github.com/iamladi/cautious-computing-machine--primitives-plugin#readme)
+
+---
+
+### 🔄 GitHub Plugin
+
+GitHub CI/CD automation plugin for auto-detecting, analyzing, and fixing CI/CD failures on any branch.
+
+**Install:**
+```bash
+/plugin install github
+```
+
+**Repository:** [cautious-computing-machine--github-plugin](https://github.com/iamladi/cautious-computing-machine--github-plugin)
+
+**What's included:**
+
+#### Specialized Agents
+- `ci-log-analyzer` - Parse CI logs and identify error patterns
+- `ci-error-fixer` - Apply fixes based on CI error types
+
+#### Slash Commands
+- `/fix-ci` - Auto-detect, analyze, and fix CI/CD failures on any branch
+- `/create-pr` - Create GitHub Pull Request with proper formatting and context
+- `/address-pr-comments` - Interactive or autonomous PR comment resolution with confidence scoring
+- `/review-pr` - Comprehensive PR review with detailed analysis and actionable feedback
+
+**Best for:**
+- Automated CI/CD failure detection and resolution
+- PR workflow automation
+- Code review assistance
+- GitHub integration workflows
+
+**Time saved:** ~30 minutes per CI failure, ~20 minutes per PR workflow
+
+[View full documentation →](https://github.com/iamladi/cautious-computing-machine--github-plugin#readme)
 
 ## Usage
 
