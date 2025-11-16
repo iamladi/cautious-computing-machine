@@ -18,6 +18,8 @@ Once added, you can browse and install plugins directly through Claude Code.
 
 Comprehensive SDLC plugin with specialized agents, commands, and integrations for enhanced software development workflow.
 
+**Version:** 1.1.1
+
 **Install:**
 ```bash
 /plugin install sdlc
@@ -37,8 +39,8 @@ Comprehensive SDLC plugin with specialized agents, commands, and integrations fo
 - `/plan` - Generate comprehensive PRDs with phases and validation
 - `/research` - AI-powered research with project context
 - `/implement` - Execute implementation based on plans
-- `/submit` - Prepare work for review
-- `/verify` - Validate against acceptance criteria
+- `/verify` - Validate implementation (build, tests, plugin schema, code review)
+- `/submit` - Prepare work for review (auto-runs verify as quality gate)
 
 #### Skills
 - `codex` - OpenAI Codex integration for automated refactoring
@@ -102,6 +104,8 @@ Essential building blocks for Claude Code workflows.
 
 GitHub CI/CD automation plugin for auto-detecting, analyzing, and fixing CI/CD failures on any branch.
 
+**Version:** 1.3.1
+
 **Install:**
 ```bash
 /plugin install github
@@ -117,7 +121,8 @@ GitHub CI/CD automation plugin for auto-detecting, analyzing, and fixing CI/CD f
 
 #### Slash Commands
 - `/fix-ci` - Auto-detect, analyze, and fix CI/CD failures on any branch
-- `/create-pr` - Create GitHub Pull Request with proper formatting and context
+- `/create-issue-from-plan` - Convert implementation plans into GitHub Issues with checklists
+- `/create-pr` - Create GitHub Pull Request with proper formatting and plan linking
 - `/address-pr-comments` - Interactive or autonomous PR comment resolution with confidence scoring
 - `/review-pr` - Comprehensive PR review with detailed analysis and actionable feedback
 
