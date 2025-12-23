@@ -18,7 +18,7 @@ Once added, you can browse and install plugins directly through Claude Code.
 
 Comprehensive SDLC plugin with specialized agents, commands, and integrations for enhanced software development workflow.
 
-**Version:** 1.1.1
+**Version:** 1.4.0
 
 **Install:**
 ```bash
@@ -67,6 +67,8 @@ Comprehensive SDLC plugin with specialized agents, commands, and integrations fo
 
 Essential building blocks for Claude Code workflows.
 
+**Version:** 1.3.0
+
 **Install:**
 ```bash
 /plugin install primitives
@@ -85,7 +87,9 @@ Essential building blocks for Claude Code workflows.
 - `/tools` - List all available built-in development tools
 
 #### Skills
+- `ask-oracle` - GPT-5 Pro / GPT-5.1 reasoning for complex architectural problems
 - `check-env-keys` - Validate environment variables without exposing secrets
+- `de-slop` - Clean AI-generated artifacts before committing
 
 **Best for:**
 - Teams enforcing coding standards
@@ -104,7 +108,7 @@ Essential building blocks for Claude Code workflows.
 
 GitHub CI/CD automation plugin for auto-detecting, analyzing, and fixing CI/CD failures on any branch.
 
-**Version:** 1.3.1
+**Version:** 1.4.0
 
 **Install:**
 ```bash
