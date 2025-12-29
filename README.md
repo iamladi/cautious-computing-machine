@@ -18,7 +18,7 @@ Once added, you can browse and install plugins directly through Claude Code.
 
 Comprehensive SDLC plugin with specialized agents, commands, and integrations for enhanced software development workflow.
 
-**Version:** 1.4.0
+**Version:** 1.6.0
 
 **Install:**
 ```bash
