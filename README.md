@@ -65,9 +65,9 @@ Comprehensive SDLC plugin with specialized agents, commands, and integrations fo
 
 ### 🔧 Primitives
 
-Essential building blocks for Claude Code workflows.
+Essential building blocks for Claude Code workflows with orchestration capabilities.
 
-**Version:** 1.3.0
+**Version:** 1.5.0
 
 **Install:**
 ```bash
@@ -87,18 +87,24 @@ Essential building blocks for Claude Code workflows.
 - `/tools` - List all available built-in development tools
 
 #### Skills
+- `orchestration` - **NEW** Transform Claude into a conductor managing parallel agent swarms
+  - Detects and uses SDLC plugin commands when available
+  - Phase protocols for research, planning, interview, implementation, review, verification, submission
+  - Domain-specific guides for 8 task types (software development, code review, testing, devops, etc.)
+  - Loose coupling: works standalone, enhanced with SDLC
 - `ask-oracle` - GPT-5 Pro / GPT-5.1 reasoning for complex architectural problems
 - `check-env-keys` - Validate environment variables without exposing secrets
 - `de-slop` - Clean AI-generated artifacts before committing
 
 **Best for:**
+- Orchestrating complex multi-agent workflows
 - Teams enforcing coding standards
 - Streamlining git workflows
 - Debugging during development
 - Quick project onboarding
 - Secure environment validation
 
-**Time saved:** ~14 minutes per feature, ~40 minutes on project setup
+**Time saved:** ~14 minutes per feature, ~40 minutes on project setup, ~30 minutes on complex orchestration tasks
 
 [View full documentation →](https://github.com/iamladi/cautious-computing-machine--primitives-plugin#readme)
 

@@ -20,7 +20,7 @@
         "source": "github",
         "repo": "iamladi/cautious-computing-machine--primitives-plugin"
       },
-      "description": "Essential building blocks for Claude Code workflows - smart commits, debugging, PRs, and environment setup"
+      "description": "Essential building blocks for Claude Code workflows - orchestration skill for parallel agent swarms, smart commits, debugging, and environment setup with SDLC integration"
     },
     {
       "name": "github",
