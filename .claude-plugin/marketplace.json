@@ -29,6 +29,14 @@
         "repo": "iamladi/cautious-computing-machine--github-plugin"
       },
       "description": "GitHub CI/CD automation plugin for auto-detecting, analyzing, and fixing CI/CD failures on any branch"
+    },
+    {
+      "name": "misc",
+      "source": {
+        "source": "github",
+        "repo": "iamladi/cautious-computing-machine--misc-plugin"
+      },
+      "description": "Miscellaneous skills - terminal UI design & copywriting"
     }
   ]
 }
