@@ -37,6 +37,14 @@
         "repo": "iamladi/cautious-computing-machine--misc-plugin"
       },
       "description": "Miscellaneous skills - terminal UI design & copywriting"
+    },
+    {
+      "name": "ts",
+      "source": {
+        "source": "github",
+        "repo": "iamladi/cautious-computing-machine--ts-plugin"
+      },
+      "description": "TypeScript ecosystem plugin for React, Hono, and modern frontend/backend development"
     }
   ]
 }
