@@ -45,6 +45,14 @@
         "repo": "iamladi/cautious-computing-machine--ts-plugin"
       },
       "description": "TypeScript ecosystem plugin for React, Hono, and modern frontend/backend development"
+    },
+    {
+      "name": "workflows",
+      "source": {
+        "source": "github",
+        "repo": "iamladi/cautious-computing-machine--workflows-plugin"
+      },
+      "description": "Autonomous workflow orchestration for the full SDLC pipeline - from research to PR submission"
     }
   ]
 }
