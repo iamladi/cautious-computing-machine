@@ -140,6 +140,47 @@ GitHub CI/CD automation plugin for auto-detecting, analyzing, and fixing CI/CD f
 
 [View full documentation →](https://github.com/iamladi/cautious-computing-machine--github-plugin#readme)
 
+---
+
+### 🤖 Workflows Plugin
+
+Autonomous workflow orchestration for the full SDLC pipeline - from research to PR submission.
+
+**Version:** 0.1.0
+
+**Install:**
+```bash
+/plugin install workflows
+```
+
+**Repository:** [workflows-plugin](https://github.com/iamladi/workflows-plugin)
+
+**What's included:**
+
+#### Slash Commands
+- `/build` - Orchestrate the full SDLC pipeline from research file to merged PR
+
+#### Shell Scripts (Ralph Pattern)
+- `workflow-ralph.sh` - Main orchestrator: runs build loop, then CI and comment resolution
+- `ci-ralph.sh` - Autonomous CI fix loop with stuck detection (max 10 iterations)
+- `comments-ralph.sh` - Autonomous comment resolution with configurable wait times
+
+#### Features
+- **Phase Signals** - XML-style signals for external script coordination
+- **Progress Tracking** - State file at worktree root for resume capability
+- **Notification System** - Logs to `~/.workflow-notifications.log` for monitoring
+
+**Best for:**
+- Fully autonomous feature development
+- AFK workflow execution (start and walk away)
+- CI/CD failure auto-resolution
+- PR review comment handling
+- Monitoring workflow progress remotely
+
+**Time saved:** ~4 hours per feature (research → merged PR)
+
+[View full documentation →](https://github.com/iamladi/workflows-plugin#readme)
+
 ## Usage
 
 After adding the marketplace, install any plugin:
