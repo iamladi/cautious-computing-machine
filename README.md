@@ -153,7 +153,7 @@ Autonomous workflow orchestration for the full SDLC pipeline - from research to 
 /plugin install workflows
 ```
 
-**Repository:** [workflows-plugin](https://github.com/iamladi/workflows-plugin)
+**Repository:** [cautious-computing-machine--workflows-plugin](https://github.com/iamladi/cautious-computing-machine--workflows-plugin)
 
 **What's included:**
 
@@ -179,7 +179,7 @@ Autonomous workflow orchestration for the full SDLC pipeline - from research to 
 
 **Time saved:** ~4 hours per feature (research → merged PR)
 
-[View full documentation →](https://github.com/iamladi/workflows-plugin#readme)
+[View full documentation →](https://github.com/iamladi/cautious-computing-machine--workflows-plugin#readme)
 
 ## Usage
 
